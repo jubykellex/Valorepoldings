@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Valore monogram">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9A948"/>
+      <stop offset="1" stop-color="#B8862E"/>
+    </linearGradient>
+  </defs>
+  <!-- crest frame -->
+  <rect x="6" y="6" width="188" height="188" rx="14" fill="#0F2440"/>
+  <rect x="16" y="16" width="168" height="168" rx="8" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+  <!-- serif V -->
+  <path d="M58 58 L100 150 L142 58 L126 58 L100 118 L74 58 Z" fill="url(#g)"/>
+  <!-- inner accent line on V -->
+  <path d="M70 58 L100 124 L130 58" fill="none" stroke="#0F2440" stroke-width="2" opacity="0.35"/>
+  <!-- diamond at apex -->
+  <path d="M100 38 l8 8 l-8 8 l-8 -8 z" fill="url(#g)"/>
+  <!-- base wordlet -->
+  <text x="100" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="4" fill="#EAF0F6">VPH</text>
+</svg>

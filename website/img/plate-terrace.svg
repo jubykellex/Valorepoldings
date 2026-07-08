@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A terrace of homes at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1a30"/>
+      <stop offset="0.55" stop-color="#15314f"/>
+      <stop offset="0.82" stop-color="#3a4663"/>
+      <stop offset="1" stop-color="#9b7b46"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E9C879"/><stop offset="0.6" stop-color="#C99B45"/><stop offset="1" stop-color="#C99B45" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2D78C"/><stop offset="1" stop-color="#C99B45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="600" fill="url(#sky)"/>
+  <!-- glow sun -->
+  <circle cx="760" cy="430" r="150" fill="url(#sun)" opacity="0.7"/>
+  <circle cx="760" cy="430" r="46" fill="#E9C879" opacity="0.85"/>
+  <!-- distant rooftops layer 1 -->
+  <g fill="#13294a" opacity="0.7">
+    <path d="M0 470 l60 -30 l60 30 l70 -40 l70 40 l80 -34 l80 34 l90 -44 l90 44 l70 -30 l70 30 l90 -38 l90 38 V600 H0 Z"/>
+  </g>
+  <!-- mid terrace silhouette -->
+  <g fill="#0e2138">
+    <path d="M0 600 V470 h120 v-46 l40 -30 l40 30 v46 h150 v-60 l44 -30 l44 30 v60 h150 v-40 l40 -28 l40 28 v40 h140 v-54 l42 -28 l42 28 v54 h120 V600 Z"/>
+  </g>
+  <!-- foreground terrace, solid -->
+  <g fill="#091a2e">
+    <path d="M0 600 V520 h90 v-34 l34 -24 l34 24 v34 h120 v-44 l36 -24 l36 24 v44 h120 v-34 l34 -24 l34 24 v34 h120 v-44 l36 -24 l36 24 v44 h120 v-34 l34 -24 l34 24 v34 h92 V600 Z"/>
+  </g>
+  <!-- lit windows (warm) -->
+  <g fill="url(#win)">
+    <rect x="40" y="540" width="14" height="20" rx="1"/><rect x="64" y="540" width="14" height="20" rx="1"/>
+    <rect x="180" y="532" width="14" height="20" rx="1"/><rect x="206" y="532" width="14" height="20" rx="1" opacity="0.5"/>
+    <rect x="330" y="540" width="14" height="20" rx="1"/><rect x="354" y="540" width="14" height="20" rx="1"/>
+    <rect x="470" y="532" width="14" height="20" rx="1" opacity="0.6"/><rect x="496" y="532" width="14" height="20" rx="1"/>
+    <rect x="620" y="540" width="14" height="20" rx="1"/><rect x="644" y="540" width="14" height="20" rx="1" opacity="0.5"/>
+    <rect x="772" y="532" width="14" height="20" rx="1"/><rect x="798" y="532" width="14" height="20" rx="1"/>
+    <rect x="900" y="540" width="14" height="20" rx="1" opacity="0.7"/>
+  </g>
+  <!-- thin gold horizon line -->
+  <rect x="0" y="600" width="1000" height="2" fill="#C99B45" opacity="0.4"/>
+</svg>
